@@ -1,0 +1,8 @@
+name: hello-love
+on: push
+jobs:
+  my-job:
+    runs-on: ubuntu-latest
+    steps:
+      - name: my-act
+        run: echo "love you code daily!"
